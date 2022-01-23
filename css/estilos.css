@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header{
+    height: 100px;
+    background-color: #F2A7B5;
+    position: sticky; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+}
+
+
+/*NAV*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkNav{
+    text-decoration: none;
+    color:white;
+    
+}
+
+#logoNav{
+    
+    height: 110px;
+    width: 115px;
+    position: relative;
+    bottom: 5px;
+    left: 100px;
+    
+}
+
+
+#menuNavegacion{
+   display: flex;
+   list-style: none;
+   margin-right: 40px;
+}
+
+.menuitem{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin: 0 30px;
+    line-height: 90px;
+    font-family: 'Staatliches', cursive;
+}
+
+
+/*MAIN INICIO*/
+
+#mainInicio{
+    background-image:url(../img/fondo\ marmol\ rosa.png) ;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 10% 30% 20% 20% ;
+    grid-template-areas: "titulo1 titulo1"
+                         "texto3 img4";
+    row-gap: 10px;   
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.tituloInicio{
+    
+    display: flex;
+    justify-content: center;
+    grid-area: titulo1;
+    justify-content: center;
+    font-size: 50px;
+    background-color: #ffe5ec;
+    font-family: 'Anton', sans-serif;
+}
+
+.subtituloInicio{
+    padding-bottom: 225px;
+    grid-area: texto3;
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #FEDFE5;
+}
+
+
+.textoInicio{
+    grid-area: texto3;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.divLogo{
+    grid-area: img4;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*FOOTER*/
+footer{
+    height: 100px;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #F6A5EB;
+}
+
+.ulFooter{
+    list-style: none;
+}
+
+
+.liFooter{
+   padding: 10px;
+}
+
+.aFooter{
+    text-decoration: none;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+    
+
+
+
+.logoInstagram{
+    width: 30px;
+    height: 30px;
+}
+
+.logoFacebook{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    right: 130px;
+    top: 10px;
+}
+
+.logoFooter{
+   height: 102px;
+   width: 115px;
+    position: absolute;
+    left: 10px;
+}
+
+
+/*MAIN PRODUCTOS*/
+
+#mainProducto{
+    height: 3000px;
+    width: 100%;
+    background-color: black;
+                          
+}                       
+
+
+.tituloProducto{
+    grid-area: titulo1;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    background-color: #ffe5ec;
+}
+
+#padreGaleria{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-areas: "foto1 foto2"
+                          "foto3 foto4"
+                          "foto5 foto6";
+    justify-content: center;                      
+    align-items: center;
+    gap: 20px;
+    row-gap: 20px;
+}
+
+.jean1{
+    grid-area: foto1;
+    height: 100%;
+    width: 100%;
+}
+
+.jean2{
+    grid-area: foto2;
+    height: 100%;
+    width: 100%;
+}
+
+.jean3{
+    grid-area: foto3;
+    height: 100%;
+    width: 100%;
+}
+
+.jean4{
+    grid-area: foto4;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.jean5{
+    grid-area: foto5;
+    height: 100%;
+    width: 100%;
+}
+
+.jean6{
+    grid-area: foto6;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*ENVIO*/
+
+#mainEnvio{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/fondoenvio.jpg);
+}
+
+#tituloEnvio{
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    background-color: #ffe5ec;
+    font-size: 50px;
+
+}
+
+#divEnvio{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "envio1 listado2"
+                         " envio1 listado2"
+                         "mapa3 mapa3";
+    justify-content: center;
+}
+
+.listaEnvio{
+    grid-area: envio1;
+    
+}
+
+.formaEnvio{
+    grid-area: listado2;
+}
+
+
+.formaEnvio{
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.explicacionEnvio{
+    grid-area: texto3;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.subtituloEncuentro{
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.listaEncuentro{
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.mapa{
+    grid-area: mapa3;
+}
+
+
+#parrafoEnvio{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*COMO COMPRAR*/
+
+#mainCompra{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/fondoproductos.jpg);
+}
+
+#gridCompra{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-areas: "encuentra1 compra2"
+                         "encuentro1 compra2";                  
+    justify-content:center;
+    margin: 0 1%;
+
+}
+
+
+#tituloCompra{
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    background-color: #ffe5ec;
+    font-size: 50px;
+}
+
+
+.subtituloEncuentra{
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.explicacionEncuentra{
+
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.subtituloCompra{
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.explicacionCompra{
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#logoCompra{
+    display: flex;
+    position: relative;
+    left: 550px;
+    height:400px;
+    width: 400px;
+    padding: 60px;
+    
+}
+
+
+
+/*CONTACTO*/
+#mainContacto{
+    height: 1000px;
+    width: 100%;
+    background-image: url(../img/fondocontactos.png);
+}
+
+#gridContacto{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "fila1 fila2"
+                         "fila3 fila3";
+                         
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.tituloContacto{
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    background-color: #ffe5ec;
+    font-size: 50px;
+}
+
+.subtituloContacto{
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive
+}
+
+#divContacto{
+    grid-area:fila1 ;
+    
+}
+
+.divFormulario{
+    grid-area: fila2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ulContacto{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.licontacto{
+    padding: 10px;
+}
+
+#redescontacto{
+    color: white;
+    font-size: 30px;
+}
+
+
+.mapaContacto{
+    grid-area: fila3;
+    padding: 50px;
+}
+
+
+
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width:600px){
+
+    
+    header{
+        height: 80px;
+        z-index: 5000;
+        
+    }
+    
+    
+    /*NAV*/
+    
+    nav{
+       flex-direction: column;
+       padding-bottom: px;
+        
+    }
+    
+    
+    #logoNav{
+        
+        height: 89px;
+        width: 90px;
+        position: relative;
+        bottom: 5px;
+        left: 225px;
+        
+    }
+    
+    
+    #menuNavegacion{
+       flex-direction: column;
+       list-style: none;
+       margin-right: 0px;
+       background-color: #F2A7B5 ;
+    }
+    
+    .menuitem{
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        margin: 0 ;
+        line-height: 35px;
+        
+    }
+
+
+
+    /*MAIN*/
+
+    #mainInicio{
+        background-image:url(../img/fondo\ marmol\ rosa.png) ;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 90% ;
+        grid-template-rows: 10% 20% 30% ;
+        grid-template-areas: "titulo1 titulo1"
+                            "texto2 texto2"
+                            "img3 img3"; 
+    
+    }  
+
+    .tituloInicio{
+        display: flex;
+        justify-content: center;
+        grid-area: titulo1;
+        justify-content: center;
+        font-size: 50px;
+        background-color: #ffe5ec;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .subtituloInicio{
+        padding-bottom: 225px;
+        grid-area: texto2;
+        font-size: 45px;
+        font-family: 'Bebas Neue', cursive;
+        background-color: #FEDFE5;
+    
+    }
+
+
+    .textoInicio{
+        grid-area: texto2;
+        font-size: 30px;
+        font-family: 'Work Sans', sans-serif;
+        
+    }
+
+    .divLogo{
+        grid-area: img3;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        height: 120px;
+        width: 120px;
+    }
+
+
+    /*FOOTER*/
+
+    .logoFooter{
+        height: 102px;
+        width: 100px;
+        position: absolute;
+        left: 10px;
+    }
+}   

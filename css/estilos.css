@@ -4,59 +4,6 @@
 }
 
 
-
-
-header{
-    height: 100px;
-    background-color: #F2A7B5;
-    position: sticky; 
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 9000;
-}
-
-
-/*NAV*/
-
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-
-.linkNav{
-    text-decoration: none;
-    color:white;
-    
-}
-
-#logoNav{
-    
-    height: 110px;
-    width: 115px;
-    position: relative;
-    bottom: 5px;
-    left: 100px;
-    
-}
-
-
-#menuNavegacion{
-   display: flex;
-   list-style: none;
-   margin-right: 40px;
-}
-
-.menuitem{
-    display: flex;
-    justify-content: flex-end;
-    font-size: 20px;
-    margin: 0 30px;
-    line-height: 90px;
-    font-family: 'Staatliches', cursive;
-}
-
-
 /*MAIN INICIO*/
 
 #mainInicio{
